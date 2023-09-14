@@ -1,0 +1,84 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.cubo{
+    margin: auto;
+    margin-top: 20vh;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    flex-basis: auto;
+    align-items: center;
+}
+
+.cella{
+    width: 32.6%;
+    margin: 0;
+    height: 32.6%;
+}
+
+#cella0{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#cella1{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#cella2{
+    border-bottom: 1px solid black;
+}
+
+#cella3{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#cella4{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#cella5{
+    border-bottom: 1px solid black;
+}
+
+#cella6{
+    border-right: 1px solid black;
+}
+
+#cella7{
+    border-right: 1px solid black;
+}
+
+.bottone{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 0;
+}
+
+.segno{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 550px){
+        .cubo{
+            height: 280px;
+            width: 280px;
+        }
+
+        .segno{
+            font-size: 60px;
+            margin-top: 10px;
+        }
+}
